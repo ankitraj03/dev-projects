@@ -1,0 +1,234 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.heading {
+    text-decoration: underline;
+    margin: 20px ;
+    font-size: 2.5rem;
+}
+
+.create-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.image-upload {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-style: dashed;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    transition: 0.5s ease-out;
+    text-align: center;
+}
+
+.upload-logo {
+    margin: 0.7rem;
+    margin-left: 9rem;
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-logo input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 100px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-logo .fa-cloud-arrow-up {
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+.upload-logo:hover {
+    background-color: #0056b3;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.event-details-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 400px; 
+    margin-left: -30%;
+
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 190%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#preview-img{
+    display: flex;
+    justify-content: center;
+    width:fit-content ;
+    height: 300%;
+}
+
+.footer-button:hover {
+    background-color: #0056b3;
+}
+.image-upload {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-style: dashed;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    transition: 0.5s ease-out;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.image-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.file-label {
+    margin-top: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.image-section-preview{
+    width: 400px;
+    height: 400px;
+}
+
+/* Add to your existing CSS */
+
+.preview {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.preview h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.preview-logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+.preview-details {
+    text-align: center;
+}
+
+.preview-details h2 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.preview-details h3 {
+    font-size: 1.2rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.preview-details p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
